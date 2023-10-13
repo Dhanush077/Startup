@@ -1,0 +1,67 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url(./images/stairs.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-evenly;
+    font-family: sans-serif;
+    margin-top: 30px;
+}
+.logo{
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.logo a{
+    text-decoration: none;
+    color: white;
+    font-size:larger ;
+}
+.logo a:first-child{
+    color: gray;
+    font-size: x-large;
+}
+.btn button{
+    font-size: large;
+    width: 90px;
+    border-radius: 20px;
+    border: 0px;
+    background-color: turquoise;
+    color: white;
+}
+.main-body{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: sans-serif;
+}
+.body-1{
+    width: 40%;
+    margin-top: 70px;
+    color: white;
+}
+.body-1 h1{
+    font-size: 60px;
+}
+.body-1 p{
+    margin-top: 30px;
+    font-size: larger;
+}
+.footer{
+    display: flex;
+}
+.foot{
+    margin-top: 30px;
+}
+.foot h3{
+    margin-top: 20px;
+}
+.body-2 img{
+    width: 120%;
+}

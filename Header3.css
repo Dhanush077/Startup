@@ -1,0 +1,95 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    font-family: sans-serif;
+}
+.nav-bar a{
+    text-decoration: none;
+}
+.logo{
+    display: flex;
+    justify-content: space-evenly;
+    width: 40%;
+    font-size: large;
+    color: gray;
+}
+.logo a,select{
+    color: gray;
+}
+.logo a:first-child{
+    color: rgb(3, 3, 105);
+    font-size: larger;
+}
+.logo select{
+    border: 0px;
+}
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+    width: 40%;
+}
+.menu a{
+    color: gray;
+}
+.menu button{
+    border: 0px;
+    height: 25px;
+    width: 70px;
+    background-color: turquoise;
+    border-radius: 20px;
+    color: white;
+}
+.body{
+    display: flex;
+    height: 500px;
+    margin-top: 150px;
+    justify-content: space-evenly;
+}
+.body-1{
+    width: 40%;
+    font-family: sans-serif;
+}
+.body-1 h1{
+    width: 80%;
+    color: rgb(4, 4, 85);
+}
+.data{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+.data input{
+    margin-top: 25px;
+    height: 30px;
+    width: 70%;
+    border-radius: 20px;
+}
+.data input:nth-child(3){
+    color: white;
+    background-color: turquoise;
+    border: 0px;
+}
+.body-1 p{
+    width: 70%;
+    text-align: center;
+    margin-top: 15px;
+    font-size: small;
+}
+.body-2{
+    width: 40%;
+}
+.body-2 img{
+    height: 60%;
+    width: 80%;
+    border-radius: 10px;
+}
+.body-2 p{
+    width: 50%;
+    color: gray;
+    margin-top: 10px;
+}

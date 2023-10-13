@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(5, 5, 89);
+}
+.main-body{
+    display: flex;
+    justify-content: space-evenly;
+}
+.body-1,.body-2{
+    width: 25%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    color: white;
+}
+.body-1 h1,h3,p{
+    width: 70%;
+    margin-top: 20px;
+}
+.body-1 h3{
+    font-size: 30px;
+}
+.body-1 h1{
+    font-size: 50px;
+}
+.body-1 p{
+    font-size: larger;
+}
+.body-1 button{
+    width: 200px;
+    height: 30px;
+    margin-top: 30px;
+    border-radius: 20px;
+    background-color: turquoise;
+    color: white;
+    border: 0px;
+}
+.body-2 img{
+    height: 85%;
+    width: 100%;
+
+}
